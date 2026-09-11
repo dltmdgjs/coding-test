@@ -12,7 +12,7 @@ int main() {
         v.push_back(temp);
     }
 
-    sort(v.begin(), v.end()); // 순열 생성 전, 오름차순 정렬 필요.
+    sort(v.begin(), v.end()); // 개선점 1 : 순열 생성 전, 오름차순 정렬 필요.
 
     do {
         int sum=0;
