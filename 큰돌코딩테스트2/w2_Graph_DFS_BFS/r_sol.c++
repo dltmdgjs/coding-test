@@ -3,7 +3,7 @@ using namespace std;
 
 
 int n, r, temp, root;
-vector<int> adj[54];
+vector<int> adj[54]; // 이런식의 선언방식 익히기 [한 부모(백터)에 여러 자식(배열)]
 
 
 // 탐색
