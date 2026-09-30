@@ -12,6 +12,8 @@ using namespace std;
 // BFS로 탐색(최소거리 보장)하여 거리를 계산한다. 그렇게 계산된 거리중 가장 긴 거리를 선택한다.
 // 6. 한 그룹이 끝나면 그 그룹은 모두 방문처리를 한다. 그리고 다시 하나씩 탐색하며 새로운 그룹을 찾고 이와 같은 과정을 반복한다.
 
+// 개선점 : sol에 정리함.
+
 int N, M, a[MAX][MAX], visited[MAX][MAX], dist = -1234567;
 vector<pair<int, int> > v; // 육지 그룹 저장 공간.
 vector<pair<int, int> > couple; // 두 육지 쌍 저장 공간.
