@@ -3,10 +3,11 @@ using namespace std;
 
 
 int n, r, temp, root;
-vector<int> adj[54]; // 이런식의 선언방식 익히기 [한 부모(백터)에 여러 자식(배열)]
+vector<int> adj[54]; // 개선점 1 : 이런식의 선언방식 익히기 [한 부모(백터)에 여러 자식(배열)]
 
 
 // 탐색
+// 개선점 2 : dfs 연습 필요
 int dfs(int here){
     int ret = 0; // 리프 노드 수
     int child = 0; // 자식 노드 수
